@@ -4694,14 +4694,7 @@ input, select, textarea {
   margin: 10;
 }
 
-.image.right img {
-  width: 100%;
-  height: auto;
-}
 
-.text-content {
-  flex: 1;
-}
 
 /* Мобильные устройства (ширина до 768px) */
 @media (max-width: 80%) {
@@ -4709,6 +4702,5 @@ input, select, textarea {
     float: inline-start;
 	width: 100%;
     margin-bottom: 1.5rem;
-    order: -1;           /* перемещает картинку в самое начало */
   }
 }
