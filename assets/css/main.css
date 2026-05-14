@@ -4704,9 +4704,9 @@ input, select, textarea {
 }
 
 /* Мобильные устройства (ширина до 768px) */
-@media (max-width: 768px) {
+@media (max-width: 80%) {
  	.image.right {
-    float: center;
+    float: inline-start;
 	width: 100%;
     margin-bottom: 1.5rem;
     order: -1;           /* перемещает картинку в самое начало */
