@@ -4687,18 +4687,3 @@ input, select, textarea {
 		}
 
 	}
-
-.image.right {
-  float: right;           /* отключаем старую обтекаемость */
-  width: 30%;
-  margin: 10;
-}
-
-/* Мобильные устройства (ширина до 768px) */
-@media screen and (max-width: 1024px) {
- 	.image.right {
-    float: inline-start;
-	width: 100%;
-    margin-bottom: 1.5rem;
-  }
-}
