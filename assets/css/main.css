@@ -2657,15 +2657,19 @@ input, select, textarea {
 			}
 			
 			.image.left {
-			clear: left;
+			float: none;
 			margin: 0 2rem 0 2rem;
 			top: 0.75rem;
 			}
 
 			.image.right {
-			clear: right;
+			float: none;
 			margin: 0 2rem 0 2rem;
 			top: 0.75rem;
+			}
+			
+			.image.left, .image.right {
+			max-width: 100%;
 			}
 		}
 
