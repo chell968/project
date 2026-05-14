@@ -4704,7 +4704,7 @@ input, select, textarea {
 }
 
 /* Мобильные устройства (ширина до 768px) */
-@media (max-width: 768px) {
+@media (max-width: auto) {
   .post-content {
     flex-direction: column;
   }
