@@ -4688,3 +4688,29 @@ input, select, textarea {
 		}
 
 	}
+.image.right {
+  float: right;           /* отключаем старую обтекаемость */
+  width: 30%;
+  margin: 10;
+}
+
+.image.right img {
+  width: 100%;
+  height: auto;
+}
+
+.text-content {
+  flex: 1;
+}
+
+/* Мобильные устройства (ширина до 768px) */
+@media (max-width: 768px) {
+  .post-content {
+    flex-direction: column;
+  }
+  .image.right {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    order: -1;           /* перемещает картинку в самое начало */
+  }
+}
