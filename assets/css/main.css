@@ -4704,12 +4704,13 @@ input, select, textarea {
 }
 
 /* Мобильные устройства (ширина до 768px) */
-@media (max-width: auto) {
+@media (max-width: 100%) {
   .post-content {
     flex-direction: column;
   }
   .image.right {
-    width: 100%;
+    float: center;
+	width: 100%;
     margin-bottom: 1.5rem;
     order: -1;           /* перемещает картинку в самое начало */
   }
