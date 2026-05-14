@@ -4688,16 +4688,15 @@ input, select, textarea {
 		}
 
 	}
+
 .image.right {
   float: right;           /* отключаем старую обтекаемость */
   width: 30%;
   margin: 10;
 }
 
-
-
 /* Мобильные устройства (ширина до 768px) */
-@media (max-width: 80%) {
+@media screen (max-width: 1024px) {
  	.image.right {
     float: inline-start;
 	width: 100%;
