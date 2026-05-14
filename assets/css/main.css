@@ -4705,10 +4705,7 @@ input, select, textarea {
 
 /* Мобильные устройства (ширина до 768px) */
 @media (max-width: 768px) {
-  .post-content {
-    flex-direction: column;
-  }
-  .image.right {
+ 	.image.right {
     float: center;
 	width: 100%;
     margin-bottom: 1.5rem;
