@@ -2655,6 +2655,14 @@ input, select, textarea {
 			.image.main {
 				margin: 2rem 0;
 			}
+			
+			.image.left, .image.right {
+			float: none;
+			display: block;
+			margin: 0 auto 2rem auto;
+			max-width: 100%;
+			top: 0;
+			}
 		}
 		
 	a.image {
