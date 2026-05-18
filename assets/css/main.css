@@ -2646,7 +2646,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 736px) {
 
 			.image.fit {
 				margin: 2rem 0;
@@ -2656,17 +2656,7 @@ input, select, textarea {
 				margin: 2rem 0;
 			}
 		}
-		@media screen {
-
-			.image.left, .image.right {
-			float: none;
-			display: block;
-			margin: 0 auto 2rem auto;
-			max-width: 100%;
-			top: 0;
-			}
-		}
-
+		
 	a.image {
 		overflow: hidden;
 	}
