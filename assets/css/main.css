@@ -2646,7 +2646,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 1280px) {
+		(max-width: 1280px) {
 
 			.image.fit {
 				margin: 2rem 0;
@@ -2655,7 +2655,9 @@ input, select, textarea {
 			.image.main {
 				margin: 2rem 0;
 			}
-			
+		}
+		@media screen{
+
 			.image.left, .image.right {
 			float: none;
 			display: block;
